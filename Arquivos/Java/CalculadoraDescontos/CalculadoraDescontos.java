@@ -1,4 +1,4 @@
-package AloMundo.CalculadoraDescontos;
+package CalculadoraDescontos;
 import java.util.Scanner;
 
 public class CalculadoraDescontos {
