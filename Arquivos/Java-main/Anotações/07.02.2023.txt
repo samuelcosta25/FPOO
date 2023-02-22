@@ -1,0 +1,19 @@
+JAVA:
+- Para concatenar uma variável em meio um texto do printf basta:  "texto inicial" +variavel+ "texto final.
+Java é sempre dividido em classes e sub-classes, sendo 'system' uma classe interna, que possui várias funções, como por ex: printf.
+
+Algoritmo= Passo a passo, com linguagem humana, com instruções.
+Pseudo código= código com nomenclaturas já induzindo para linguagem de programação, com declarações e sintaxes de lógica.
+
+inteiros:
+byte=2^8
+short=2^16
+int=2^31
+long=2^63
+
+float= numeros decimais até 7 digitos;
+double= numeros decimais até 16 digitos;
+
+texto:
+char=caractere
+string=textos
