@@ -1,0 +1,17 @@
+Algoritmo:
+
+1. Obter distancia percorrida em Km.
+2. Obter preço de combustível em reais.
+3. Obter o consumo do veículo em Km/L.
+4. Dividir percurso total (km) por consumo (km/l) para saber quantos Litros foram gastos. 
+5. Multiplicar quantidade de Litros gastos pelo valor do combustível para saber valor gasto em reais.
+6. Mostrar para o usuário o valor gasto em reais na viagem.
+
+Pseudo código:
+
+1. distancia = obterInformacaoDoUsuario();
+2. preco = obterInformacaoDoUsuario();
+3. consumo = obterInformacaoDoUsuario();
+4. litros = distancia/consumo;
+5. valorTotal = litros*preco;
+6. exibirResultadoParaUsuario(valorTotal);

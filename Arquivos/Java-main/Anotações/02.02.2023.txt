@@ -1,0 +1,19 @@
+FPOO = Fundamento de progração orientada a objeto.
+
+GIT:
+- Para iniciar git --> clicar com direito na pasta de destino e "Git Bash Here". Caso atalho não funcionar, abrir manualmente o software e chamar os caminhos, com o comando "cd", ex: 'cd d:'
+
+Branch -> Ramificação (versões) - utilizado para não corromper ou configurar de forme errada o código fonte principal.
+
+GIT serve para versionamento local. GITHUB serve para versionamento on-line e para divulgação de códigos abertos, etc ("rede social do TI).
+
+No git inicialmente sempre te joga para o branch Master, no Github sempre no Main, isso pode ser um problema para alterações simultaneas. A solução mais fácil é mudar o branch no Git, com o comando -> 'git branch -M main' (te joga para o branch main).
+ -git add . -> para adicionar todos os arquivos da pasta de destino no git.
+
+JAVA:
+- Linguagem totalmente versátil, funciona com qualquer sistema operacional (linux, windows).
+- Foi criada em meados de 2000 e se tornou uma das maiores.
+- Criação de classes e subclasses. Não há limitação de subclasses, é sempre uma ramificação de assuntos relacionados.
+
+Upper CamelCase = Todas iniciais maiusculas.
+Lower CamelCase = Primeira minuscula e inicial das proximas palavras maiuscula.
