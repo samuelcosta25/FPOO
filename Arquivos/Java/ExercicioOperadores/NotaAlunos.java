@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class NotaAlunos {
     Scanner sc = new Scanner(System.in);
+    boolean mediaOk, freqOk;
 
     public void notas() {
         System.out.println("Informe a primeira nota do aluno:");
@@ -11,15 +12,21 @@ public class NotaAlunos {
         System.out.println("Informe a segunda nota do aluno:");
         double nota2 = sc.nextDouble();
         double media = (nota1+nota2)/2;
-       public boolean mediaOk = media>=50;
+        mediaOk = media>=50;
     }
 
     public void frequencia(){
         System.out.println("Informe a frequencia do aluno:");
         double freq = sc.nextDouble();
-        public boolean freqOk = freq>=75;
+        freqOk = freq>=75;
     }
     public void passou(){
         boolean passou = mediaOk && freqOk;
+        if (passou==true) {
+            System.out.println("O aluno passou");
+        }
+        else {
+            System.out.println("O aluno não passou");
+        }
     }
 }
