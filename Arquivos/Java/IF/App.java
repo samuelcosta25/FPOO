@@ -1,4 +1,4 @@
-package ExercicioDecisaoIF;
+package IF;
 
 public class App {
     public static void main(String[] args) {
