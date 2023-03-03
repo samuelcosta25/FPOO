@@ -95,4 +95,25 @@ public class Exercicios {
         }
     }
 
+    public void exercicio7() {
+        boolean mediaOk, freqOk;
+        System.out.println("Informe a primeira nota do aluno:");
+        double nota1 = sc.nextDouble();
+        System.out.println("Informe a segunda nota do aluno:");
+        double nota2 = sc.nextDouble();
+        double media = (nota1 + nota2) / 2;
+        mediaOk = media >= 50;
+        System.out.println("Informe a frequencia do aluno:");
+        double freq = sc.nextDouble();
+        freqOk = freq >= 75;
+        boolean passou = mediaOk && freqOk;
+        System.out.println("Aluno foi aprovado em nota? " + mediaOk);
+        System.out.println("Aluno foi aprovado em frenquencia? " + freqOk);
+        if (passou == true) {
+            System.out.println("O aluno passou de ano.");
+        } else {
+            System.out.println("O aluno não passou de ano.");
+        }
+    }
+
 }

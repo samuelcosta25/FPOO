@@ -23,6 +23,8 @@ public class App {
             objetoApp.exercicio5();
         } else if (numeroExercicio == 6) {
             objetoApp.exercicio6();
+        } else if (numeroExercicio == 7) {
+            objetoApp.exercicio7(); 
         } else {
             System.out.println("Digite um número válido.");
         }
