@@ -1,0 +1,8 @@
+Para declarar um scanner em classes diferentes, é necessário sempre atribuir nome diferentes, por ex:
+scanner sc = new scanner (system.in); // em uma determinada classe
+scanner scan = new scanner (system.in); // em outra classe
+scanner scan2 = new scanner (system.in); // em uma terceira classe
+
+classe: public class nomeClasse {}
+método: public void nomeMétodo {}
+objeto (atribui da mesma forma que o scanner): nomeClasse nomeObjeto = new nomeClasse();

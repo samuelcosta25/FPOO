@@ -1,0 +1,10 @@
+estrutura do if em java:
+
+if (condição) {
+    faça isso
+}
+else {
+    faça isso
+}
+
+a condição pode ter quantas lógicas ou relações for preciso.

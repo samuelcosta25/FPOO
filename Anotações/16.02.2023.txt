@@ -1,0 +1,14 @@
+A sintaxe x+=20 equivale a x=x+20 --> isso vale para outros operadores tambem.
+Termos atribuitivos são =, =/, etc
+Termos comparativos são ==, <, >, <=, >=, etc
+Truncar=ignorar o que tem depois da virgula e considerar somente o número inteiro.
+Criar método: public void nomeMetodo () {}
+Criar classe: public class nomeMetodo {}
+Criar objeto: nomeClasse nomeObjeto = new nomeConstrutor ();
+
+*construtores serão aprofundados mais pra frente. É possível agregar valores e variáveis quando um construtor for chamado.
+declaração de variável tipo lógica= boolean nomeVariavel
+
+operadores lógicos: &&(AND) - ||(OR) - !(NOT)
+
+2notas, média>=50 E presença>=75
