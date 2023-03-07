@@ -1,3 +1,1 @@
-# Java
-# FPOO
 # FPOO
