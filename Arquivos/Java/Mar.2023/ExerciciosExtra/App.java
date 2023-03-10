@@ -2,8 +2,9 @@ package ExerciciosExtra;
 
 import java.util.Scanner;
 
-public class App {
+public class  App{
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         Exercicios objetoApp = new Exercicios();
 
@@ -18,12 +19,12 @@ public class App {
         } else if (numeroExercicio == 4) {
             objetoApp.exercicio4();
         } else if (numeroExercicio == 5) {
-            objetoApp.exercicio5(); 
+            objetoApp.exercicio5();
         } else {
             System.out.println("Digite um número válido.");
         }
         scan.close();
 
     }
-    
+
 }
