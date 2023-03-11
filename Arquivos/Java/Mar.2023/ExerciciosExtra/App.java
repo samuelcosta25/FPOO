@@ -10,18 +10,19 @@ public class  App{
 
         System.out.println("Digite qual exercício deseja executar:");
         int numeroExercicio = scan.nextInt();
-        if (numeroExercicio == 1) {
-            objetoApp.exercicio1();
-        } else if (numeroExercicio == 2) {
-            objetoApp.exercicio2();
-        } else if (numeroExercicio == 3) {
-            objetoApp.exercicio3();
-        } else if (numeroExercicio == 4) {
-            objetoApp.exercicio4();
-        } else if (numeroExercicio == 5) {
-            objetoApp.exercicio5();
-        } else {
-            System.out.println("Digite um número válido.");
+        switch (numeroExercicio) {
+            case 1: objetoApp.exercicio1();
+            break;
+            case 2: objetoApp.exercicio2();
+            break;
+            case 3: objetoApp.exercicio3();
+            break;
+            case 4: objetoApp.exercicio4();
+            break;
+            case 5: objetoApp.exercicio5();
+            break;                
+            default: System.out.println("Digite um número válido.");
+            break;
         }
         scan.close();
 
