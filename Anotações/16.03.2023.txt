@@ -17,5 +17,9 @@ while:
 int iteracao = 0;
 while (iteracao < 10) {
 System.out.println("Iteração de número " + iteracao + ".");
-iteracao = iteracao + 1; // ou iteracao =+ 1;
+iteracao = iteracao + 1; // ou iteracao += 1;
+}
+
+for (int i = 0; i < 10; i++) {
+System.out.println("Iteração número: " + i);
 }

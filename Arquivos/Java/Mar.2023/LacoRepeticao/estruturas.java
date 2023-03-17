@@ -13,9 +13,5 @@ public class estruturas {
         iteracao+=1; // ou iteracao=interacao + 1;
     }
 }
-public void sorteio (){
-    Random rd = new Random();
-    int nSorteado = rd.nextInt(bound:10);
 
-}
 }
