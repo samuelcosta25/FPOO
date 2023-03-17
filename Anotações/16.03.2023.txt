@@ -1,0 +1,21 @@
+vetor = arrays
+diferente de uma variável um vetor guarda mais de um valor. Trabalha com diferentes tipos de valores (int, boolean, string..).
+
+primeira posição = indice 0
+segunda posição = indice 1 
+e assim por adiante.
+
+vetor de segunda dimensão, ou adiante (terceira, quarta), são vetores que possuem outros vetores incluidos em si.
+
+para declarar um vetor:
+double[] nomeVetor = new double [numero de elementos do vetor]{x, y, z, etc};
+
+Estruturas de repetição em java: While e For:
+
+while:
+
+int iteracao = 0;
+while (iteracao < 10) {
+System.out.println("Iteração de número " + iteracao + ".");
+iteracao = iteracao + 1; // ou iteracao =+ 1;
+}
