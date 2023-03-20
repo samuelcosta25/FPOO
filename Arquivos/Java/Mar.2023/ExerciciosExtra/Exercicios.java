@@ -61,43 +61,16 @@ public class Exercicios {
         }
         double reajusteFinal=salario* reajuste;
         double salarioFinal=salario+reajusteFinal;
-        double percentual = reajuste*100;
 
         System.out.println("O salário antes do reajuste é: "+salario);
-        System.out.println("O percentual de aumento aplicado é: "+ percentual +"%");
+        System.out.println("O percentual de aumento aplicado é: "+ reajuste);
         System.out.println("O valor do aumento foi de: "+reajusteFinal);
         System.out.println("O novo salário, após o aumento é de: "+salarioFinal);
+         
+
     }
 
     public void exercicio5() {
-        double desconto=0;
-        System.out.println("Digite o valor de horas trabalhadas: ");
-        double horas = read.nextDouble();
-        System.out.println("Digite a  quantidade de horas trabalhadas: ");
-        int quant = read.nextInt();
-        double bruto= horas*quant;
-        double fgts = bruto*0.11;
-        double inss = bruto*0.1;
-        if (bruto<=900) {
-            desconto = 0;
-        } else if (bruto>900 && bruto<=1500) {
-            desconto = 5;
-        } else if (bruto>1500 && bruto<=2500) {
-            desconto = 10;
-        } else if (bruto>2500) {
-            desconto = 20;
-        } else { 
-            System.out.println("Digite um valor válido!"); 
-        }
-        double ir = (bruto*desconto)/100;
-        double totalDesconto = ir+inss;
-        double liquido = bruto-totalDesconto;
-        System.out.println("Salário bruto ("+horas+"*"+quant+"): R$"+bruto);
-        System.out.println("(-)IR ("+desconto+"%): R$"+ir);
-        System.out.println("(-)INSS (10%): R$"+inss);
-        System.out.println("FGTS (10%): R$"+fgts);
-        System.out.println("Total de descontos: R$"+totalDesconto);
-        System.out.println("Salário líquido: R$"+liquido);
-    }
 
+    }
 }
