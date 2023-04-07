@@ -1,0 +1,6 @@
+while (condicao){
+execucao
+}
+
+- o while vai se repetir ENQUANTO a condicao proposta ser satisfeita. 
+
