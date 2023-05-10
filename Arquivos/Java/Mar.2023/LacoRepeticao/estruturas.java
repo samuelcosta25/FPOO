@@ -1,5 +1,9 @@
 package LacoRepeticao;
 
+<<<<<<< HEAD
+=======
+import java.util.Random;
+>>>>>>> 0fc5177514287b3d2d35c1798d183238841f555e
 import java.util.Scanner;
 
 public class estruturas {
