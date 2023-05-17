@@ -8,12 +8,13 @@ public class App {
         //Modificar atributos
         aluno1.setNome("Ana clara");
         aluno1.setEndereco("Rua 10");
-        aluno1.getIdade(23);
+        aluno1.setIdade(23);
+
 
         //acessar atributos
-        System.out.println("Nome "+aluno1.getNome());
-        System.out.println("Nome "+aluno1.getEndereco());
-        System.out.println("Nome "+aluno1.getIdade());
+        System.out.println("Nome: "+aluno1.getNome());
+        System.out.println("Endereço: "+aluno1.getEndereco());
+        System.out.println("Idade: "+aluno1.getIdade());
 
     }
 }
