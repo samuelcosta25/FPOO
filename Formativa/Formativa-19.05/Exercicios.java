@@ -63,5 +63,52 @@ public class Exercicios {
 
     public void exercicio3() {
 
+        int tamanho = rd.nextInt(900) + 100; // Sorteia um número entre 100 e 1000
+        int[] vetor = new int[tamanho];
+
+        // Preenche o vetor com números aleatórios de 1 a 100
+        for (int i = 0; i < tamanho; i++) {
+            vetor[i] = rd.nextInt(100) + 1;
+        }
+
+        // Lista o vetor com números aleatórios
+        System.out.println("Vetor: ");
+       for (int i = 0; i < vetor.length; i++) {
+            System.out.print(vetor[i] + " ");
+        
+       }
+           
+        System.out.println();
+       int contarParNoImpar = 0;
+       int contarImparNoPar=0;
+       System.out.println("");
+        System.out.println("Vetor somente com números pares: ");
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] % 2 == 0) {
+                System.out.print(vetor[i] + " ");
+                if (i%2==0){
+                    contarParNoImpar++;
+                }
+            }
+        }
+        System.out.println("");
+
+        System.out.println("Vetor somente com números impares: ");
+       
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] % 2 == 1) {
+                System.out.print(vetor[i] + " ");
+                if (i%2==1){
+                    contarImparNoPar++;
+                }
+            }
+        }
+        System.out.println();
+       
+        System.out.println("Quantidade de números pares nas posições ímpares: " + contarParNoImpar);
+
+       
+        System.out.println("Quantidade de números ímpares nas posições pares: " +contarImparNoPar);
+
     }
 }
