@@ -1,0 +1,5 @@
+- um construtor necessita sempre ter o mesmo nome da sua classe;
+- comando para criar construtor "ctor";
+- set atribui algum valor à alguma variavel
+- get pede algum valor de entrada;
+- 
